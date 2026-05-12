@@ -1,0 +1,173 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#ffe6f0,#fff0f6,#ffeef8);
+color:#333;
+}
+
+/* NAVBAR */
+
+.navbar{
+background:linear-gradient(90deg,#ff4fa3,#ff7ac3,#ffb6d9);
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 8px 25px rgba(255,79,163,0.25);
+position:sticky;
+top:0;
+}
+
+.logo{
+color:white;
+font-size:26px;
+font-weight:700;
+}
+
+/* MENU */
+
+.menu{
+list-style:none;
+display:flex;
+gap:25px;
+}
+
+.menu a{
+color:white;
+text-decoration:none;
+font-weight:500;
+}
+
+/* HERO */
+
+.hero{
+min-height:85vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:40px;
+background:radial-gradient(circle,#ffd6ea,#fff0f6);
+}
+
+.hero h1{
+font-size:42px;
+color:#c2185b;
+margin-bottom:15px;
+}
+
+.hero p{
+max-width:800px;
+margin:auto;
+margin-bottom:20px;
+line-height:1.8;
+}
+
+/* BUTTON */
+
+.btn{
+background:linear-gradient(135deg,#ff4fa3,#ff7ac3);
+color:white;
+padding:14px 30px;
+border-radius:50px;
+text-decoration:none;
+display:inline-block;
+box-shadow:0 10px 25px rgba(255,79,163,0.25);
+}
+
+/* CARDS */
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:60px 8%;
+}
+
+.card{
+background:rgba(255,255,255,0.7);
+padding:25px;
+border-radius:20px;
+box-shadow:0 8px 20px rgba(255,79,163,0.15);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+/* PAGE */
+
+.page{
+padding:90px 8%;
+text-align:center;
+}
+
+.page h1{
+color:#c2185b;
+margin-bottom:20px;
+}
+
+.page h2{
+color:#ff4fa3;
+margin-top:20px;
+}
+
+/* LIST */
+
+.list{
+list-style:none;
+margin-top:15px;
+}
+
+.list li{
+margin:8px 0;
+}
+
+/* CONTACT */
+
+.contact-info{
+margin:20px 0;
+line-height:1.8;
+}
+
+.contact-form{
+max-width:500px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:12px;
+}
+
+.contact-form input,
+.contact-form textarea{
+padding:12px;
+border:none;
+border-radius:12px;
+background:white;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.contact-form button{
+background:linear-gradient(135deg,#ff4fa3,#ff7ac3);
+color:white;
+border:none;
+padding:12px;
+border-radius:50px;
+cursor:pointer;
+}
+
+/* FOOTER */
+
+footer{
+background:linear-gradient(90deg,#ff4fa3,#ff7ac3,#ffb6d9);
+color:white;
+text-align:center;
+padding:15px;
+margin-top:40px;
+}
